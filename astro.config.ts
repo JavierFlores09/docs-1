@@ -42,9 +42,21 @@ export default defineConfig({
               items: [
                 {
                   label: "Reference",
-                  autogenerate: {
-                    directory: "slicer/reference",
-                  },
+                  items: [
+                    {
+                      label: "Analysis",
+                      autogenerate: {
+                        directory: "slicer/reference/analysis",
+                      },
+                    },
+                    "slicer/reference/class",
+                    "slicer/reference/structure",
+                    "slicer/reference/disasm",
+                    "slicer/reference/graph",
+                    "slicer/reference/deobf",
+                    "slicer/reference/dump",
+                    "slicer/reference/share",
+                  ],
                 },
                 {
                   label: "Scripting API",

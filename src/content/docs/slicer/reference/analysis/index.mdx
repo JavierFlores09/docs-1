@@ -1,0 +1,40 @@
+---
+title: Overview
+description: Reference of analysis capabilities.
+---
+
+import { CardGrid, LinkCard } from "@astrojs/starlight/components";
+
+To enable features, such as the integrated pseudocode disassembler and the [class view](/slicer/reference/class), slicer creates in-memory models of classes.
+
+By default, a partial version of the model is created for all classes in the background - this is called background analysis.
+When a class is to be disassembled or the like, a full version of the model is created and cached.
+
+:::tip
+
+If you expect to load a large amount of classes (i.e. tens of thousands) into the workspace, you may want to disable background analysis
+(uncheck `Analysis` -> `Background analysis` in preferences) and rely only on just-in-time analysis to save on time and memory costs.
+
+This will however render some features, such as search and bidirectional inheritance graphing, unavailable until the class is analyzed, so use with caution.
+
+:::
+
+slicer also utilizes a copy of the JDK standard library (version 21) to improve output accuracy during disassembly.
+This can have a performance impact on initial disassembly, as the essential classes haven't been fetched and cached - it can take longer.
+
+Of course, you can also disable the usage of the standard library with the `Analysis` -> `Fetch JDK classes` option and rely purely on your workspace classes.
+
+---
+
+<CardGrid>
+  <LinkCard
+    title="Search"
+    description="Search for constant pool values, class members and more with various search modes."
+    href="/slicer/reference/analysis/search"
+  />
+  <LinkCard
+    title="Transformers"
+    description="Apply transformations to class models during analysis, useful for deobfuscation and more."
+    href="/slicer/reference/analysis/transformers"
+  />
+</CardGrid>

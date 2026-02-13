@@ -17,6 +17,14 @@ description: Reference of sharing capabilities.
 slicer allows you to read files from an HTTP server (with an appropriate CORS setup) using the `url` search parameter.
 This is useful for embedding slicer into outside web applications and allowing users to automatically source arbitrary files.
 
+A notable use case is _decompiling the Minecraft client/server_, you can use a URL like `https://slicer.run?url=https://piston-data.mojang.com/v1/objects/ba2df812c2d12e0219c489c4cd9a5e1f0760f5bd/client.jar` to automatically load the Minecraft client JAR into slicer and start decompiling it, which is pretty neat!
+
+:::tip
+
+You can view a table of deobfuscated Minecraft versions on the [minecraft.katana-project.org](https://minecraft.katana-project.org) website, which provides links to slicer with the appropriate URL parameter already set up for each version.
+
+:::
+
 ## Example
 
 source URL: `https://raw.githubusercontent.com/GenericException/SkidSuite/refs/heads/master/obf/obf-sample-test.jar`<br>

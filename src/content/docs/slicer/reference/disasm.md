@@ -1318,7 +1318,7 @@ slicer includes a basic disassembler to power several bytecode analysis features
 
 - the [class view](/slicer/reference/class) (prettifying class file constructs)
 - the [flow graph](/slicer/reference/graph#control-flow) (prettifying instructions and computing the graph itself)
-- the [search](/slicer/reference/analysis#search) (prettifying constant pool entries)
+- the [search](/slicer/reference/analysis/search) (prettifying constant pool entries)
 - the pseudocode disassembler
 
 <details>
