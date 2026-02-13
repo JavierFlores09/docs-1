@@ -81,6 +81,22 @@ An edge is a line that connects two classes/two interfaces/a class with an inter
 
 ![](./assets/hierarchy.png)
 
+## Calls
+
+The call graph visualizes method callees in a method using a left-to-right flow diagram.
+
+A node is a block representing one method. The node that represents the viewed method is highlighted using the primary color of the UI.
+An edge is a line that connects two or more methods, representing a call from one method to another.
+
+:::caution
+
+Call graphs can get very large, very quickly, so be cautious when opening them for methods with a lot of calls.
+slicer may hang or even crash if the graph is too large, so it's recommended to use them only for methods with a reasonable amount of calls.
+
+:::
+
+![](./assets/call_graph.png)
+
 ## Export
 
 Graphs can be exported into SVG or PNG format in the context menu (right click -> `Export`).
