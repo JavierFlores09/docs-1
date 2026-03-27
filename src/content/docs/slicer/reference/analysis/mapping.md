@@ -29,6 +29,7 @@ slicer always uses the first namespace in the mapping file as the source namespa
 ## Additional considerations
 
 - When loading a mapping, the entire workspace is re-analyzed with the new names, so it may take some time for the changes to apply.
+- The remapper does not have any inheritance propagation mechanism, so if a superclass member is renamed in the mapping but its subclass member is not, the subclass member will not be renamed to match the new name of the superclass member.
 - If you load multiple mappings:
   - the last loaded mapping will take precedence in case of conflicts, so be mindful of the loading order
   - the mappings will not be merged, so you can only have a single source and target namespace across all loaded mappings, which is usually not an issue since most mappings only have one of each, but it's something to keep in mind if you plan on loading multiple mappings with different namespaces.
