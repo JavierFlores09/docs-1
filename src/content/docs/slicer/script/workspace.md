@@ -1,6 +1,7 @@
 ---
 title: Workspace
 description: Overview of the workspace manipulation API.
+tableOfContents: false
 ---
 
 The workspace API allows you to manipulate file entries that slicer is currently holding onto (i.e. files in the `Project` tab).

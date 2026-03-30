@@ -1,6 +1,7 @@
 ---
 title: Disassembler
 description: Overview of the disassembler API.
+tableOfContents: false
 ---
 
 The disassembler API allows you to introspect and manipulate disassemblers in slicer. slicer offers several disassemblers/decompilers [out of the box](/slicer/reference/disasm), but this API makes it possible to add custom ones via a script.

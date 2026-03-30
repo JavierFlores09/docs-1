@@ -1,6 +1,7 @@
 ---
 title: Editor
 description: Overview of the editor manipulation API.
+tableOfContents: false
 ---
 
 The editor API allows you to introspect and trigger updates to the currently opened editor panes, like refreshing them in case of an option changing and the view now being invalid.

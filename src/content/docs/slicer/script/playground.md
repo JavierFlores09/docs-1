@@ -1,6 +1,7 @@
 ---
 title: Playground
 description: A quick description of the script playground.
+tableOfContents: false
 ---
 
 The script playground is a quick and convenient way to introspect the current instance of slicer and to prototype scripts.
