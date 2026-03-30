@@ -24,7 +24,7 @@ Mappings do not change the actual file structure, so the "Files and directories"
 
 Mappings can be loaded via the `Mapping` -> `Load` menu option, which accepts a file or clipboard data.
 
-slicer always uses the first namespace in the mapping file as the source namespace, and the second namespace as the target namespace (this is the "automatic" behavior, you can also choose the target), so make sure to order them correctly when loading.
+Unless specified otherwise (e.g. in the "Load mappings" menu), slicer always uses the first namespace in the mapping file as the source namespace, and the second namespace as the target namespace (this is the "automatic" behavior), so make sure to order them correctly when loading.
 
 ## Additional considerations
 
