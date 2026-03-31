@@ -977,24 +977,24 @@ public class HeapSort
 
 | Name                                                  | Type    | Default | Description                                                                  |
 | ----------------------------------------------------- | ------- | ------- | ---------------------------------------------------------------------------- |
-| `always-generate-exception-variable-for-catch-blocks` | Boolean | `true`  | Always generate an exception variable for catch blocks, even if it is unused |
-| `disable-for-each-transforms`                         | Boolean | `false` | Disable transforms for for-each loops                                        |
-| `exclude-nested-types`                                | Boolean | `false` | Exclude nested types from decompilation                                      |
-| `flatten-switch-blocks`                               | Boolean | `false` | Drop unnecessary braces in switch blocks                                     |
-| `force-explicit-imports`                              | Boolean | `true`  | Force fully qualified type names in output                                   |
-| `force-explicit-type-arguments`                       | Boolean | `false` | Force explicit type arguments on method calls                                |
-| `force-fully-qualified-references`                    | Boolean | `false` | Force fully qualified references                                             |
-| `include-error-diagnostics`                           | Boolean | `true`  | Include error diagnostics in output                                          |
-| `include-line-numbers-in-bytecode`                    | Boolean | `true`  | Include line numbers in bytecode comments                                    |
-| `merge-variables`                                     | Boolean | `false` | Merge variables with non-overlapping scopes                                  |
-| `preview-features-enabled`                            | Boolean | `false` | Enable decompilation of preview features                                     |
-| `retain-pointless-switches`                           | Boolean | `false` | Retain switches that could be replaced with if statements                    |
-| `retain-redundant-casts`                              | Boolean | `false` | Retain redundant type casts                                                  |
-| `show-debug-line-numbers`                             | Boolean | `false` | Show line numbers from debug info in comments                                |
-| `show-synthetic-members`                              | Boolean | `false` | Show synthetic (compiler-generated) members                                  |
-| `simplify-member-references`                          | Boolean | `false` | Simplify member references by removing redundant qualifiers                  |
-| `text-block-line-minimum`                             | Integer | `3`     | Minimum number of lines required for text block formatting                   |
-| `unicode-output-enabled`                              | Boolean | `false` | Enable unicode characters in output                                          |
+| `always_generate_exception_variable_for_catch_blocks` | Boolean | `true`  | Always generate an exception variable for catch blocks, even if it is unused |
+| `disable_for_each_transforms`                         | Boolean | `false` | Disable transforms for for-each loops                                        |
+| `exclude_nested_types`                                | Boolean | `false` | Exclude nested types from decompilation                                      |
+| `flatten_switch_blocks`                               | Boolean | `false` | Drop unnecessary braces in switch blocks                                     |
+| `force_explicit_imports`                              | Boolean | `true`  | Force fully qualified type names in output                                   |
+| `force_explicit_type_arguments`                       | Boolean | `false` | Force explicit type arguments on method calls                                |
+| `force_fully_qualified_references`                    | Boolean | `false` | Force fully qualified references                                             |
+| `include_error_diagnostics`                           | Boolean | `true`  | Include error diagnostics in output                                          |
+| `include_line_numbers_in_bytecode`                    | Boolean | `true`  | Include line numbers in bytecode comments                                    |
+| `merge_variables`                                     | Boolean | `false` | Merge variables with non-overlapping scopes                                  |
+| `preview_features_enabled`                            | Boolean | `false` | Enable decompilation of preview features                                     |
+| `retain_pointless_switches`                           | Boolean | `false` | Retain switches that could be replaced with if statements                    |
+| `retain_redundant_casts`                              | Boolean | `false` | Retain redundant type casts                                                  |
+| `show_debug_line_numbers`                             | Boolean | `false` | Show line numbers from debug info in comments                                |
+| `show_synthetic_members`                              | Boolean | `false` | Show synthetic (compiler-generated) members                                  |
+| `simplify_member_references`                          | Boolean | `false` | Simplify member references by removing redundant qualifiers                  |
+| `text_block_line_minimum`                             | Integer | `3`     | Minimum number of lines required for text block formatting                   |
+| `unicode_output_enabled`                              | Boolean | `false` | Enable unicode characters in output                                          |
 
 ## Disassemblers
 
