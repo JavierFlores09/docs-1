@@ -8,7 +8,7 @@ The editor API allows you to introspect and trigger updates to the currently ope
 
 A basic unit of the editor is a tab. Tabs can be looked up using the `EditorContext` API, which you can get, once again, from [the context](/slicer/script/#context).
 
-```js
+```js wrap
 context.editor.tabs(); // gets all currently opened tabs
 context.editor.find("..."); // find a tab by its ID, returns null if not found
 context.editor.current(); // gets the currently active tab, returns null if there's no active tab
@@ -26,7 +26,7 @@ await context.editor.refresh("...", false);
 
 Each tab has an associated unique ID, a non-unique label and optionally a workspace entry:
 
-```js
+```js wrap
 // pretty representation of a Tab object
 {
     type: "code", // "welcome", "code", "hex", "flow_graph", "image", ...

@@ -8,7 +8,7 @@ The disassembler API allows you to introspect and manipulate disassemblers in sl
 
 All disassembler operations are done via a `DisassemblerContext`, which you can once again access on [the context](/slicer/script/#context).
 
-```js
+```js wrap
 context.disasm.all(); // lists all disassemblers
 context.disasm.find("vf"); // finds a disassembler by its ID, returns null if not found; this example returns the Vineflower decompiler
 
@@ -30,7 +30,7 @@ _This property directly maps to slicer's internal language ID representation, po
 
 :::
 
-```js
+```js wrap
 const myDisasm /*: Disassembler */ = {
   id: "my-disasm",
   label: "My disassembler", // optional
