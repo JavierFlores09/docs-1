@@ -54,7 +54,7 @@ context.editor.unregister("my-script/tab-type");
 
 :::tip
 
-The tab registration API has more to offer in the [TypeScript type definitions](https://github.com/katana-project/script/blob/main/index.d.ts).
+The tab registration API has more to offer in the [TypeScript type definitions](https://github.com/katana-project/slicer/blob/main/script/index.d.ts).
 
 :::
 

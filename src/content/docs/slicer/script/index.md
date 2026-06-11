@@ -34,9 +34,9 @@ export default {
 
 :::tip
 
-TypeScript type definitions for the API are available [here](https://github.com/katana-project/script).
+TypeScript type definitions for the API are available [here](https://github.com/katana-project/slicer/blob/main/script/index.d.ts).
 
-Scripts are meant to be fairly simple, but they can also be pretty extensive, so for convenience, a TypeScript+Rollup example project is provided [here](https://github.com/katana-project/script-template).
+Scripts are meant to be fairly simple, but they can also be pretty extensive, so for convenience, a TypeScript+Rolldown example project is provided [here](https://github.com/katana-project/script-template).
 
 :::
 
